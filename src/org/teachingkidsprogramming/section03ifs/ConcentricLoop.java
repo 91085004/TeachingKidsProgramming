@@ -19,11 +19,6 @@ public class ConcentricLoop
     {
       if ((i % 20) == 4)
       {
-        for (int i = 0; i < 360; i++)
-        {
-          
-        }
-        
       }
     }
     //          Do the following 360 times --#8.1
