@@ -6,7 +6,6 @@ import org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuizGrader;
 
 public class HiLowQuiz extends org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuiz
 {
-  // THIS IS A TEST!!!!
   @Override
   public void question1()
   {
