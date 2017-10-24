@@ -1,6 +1,7 @@
 package org.teachingkidsprogramming.section03ifs;
 
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors.Purples;
 import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 import org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuizGrader;
 
@@ -9,6 +10,8 @@ public class HiLowQuiz extends org.teachingkidsprogramming.recipes.quizzes.grade
   @Override
   public void question1()
   {
+    Tortoise.setPenColor(Purples.DarkViolet);
+    Tortoise.setPenWidth(15);
     if (Tortoise.getY() == 115)
     {
       Tortoise.turn(63);
