@@ -8,15 +8,15 @@ public class BackgroundPhoto
   @SuppressWarnings("unused")
   public static void main(String[] args)
   {
-    Tortoise.getBackgroundWindow()
-        .setBackgroundImage("https://usatftw.files.wordpress.com/2017/05/spongebob.jpg?w=1000&h=600&crop=1");
+    String currPicture = ("https://usatftw.files.wordpress.com/2017/05/spongebob.jpg?w=1000&h=600&crop=1");
+    Tortoise.getBackgroundWindow().setBackgroundImage(currPicture);
     Tortoise.show();
     Tortoise.setSpeed(10);
     int side = 2;
-    for (int i = 0; i < 75; i++)
+    for (int i = 0; i < 3000; i++)
     {
       Tortoise.setPenColor(Yellows.Yellow);
-      side = 3;
+      side++;
       Tortoise.move(side);
       Tortoise.setX(555);
       Tortoise.setY(65);
