@@ -3,8 +3,6 @@ package org.teachingkidsprogramming.section04mastery;
 import org.junit.Assert;
 import org.junit.Test;
 
-import you.need.to.fill.in.the.______;
-
 @SuppressWarnings("unused")
 public class DeepDive04Mastery
 {
@@ -125,16 +123,16 @@ public class DeepDive04Mastery
   {
     String text = "42";
     Number theAnswer = Integer.parseInt(text);
-    Assert.assertEquals(theAnswer.getClass(), ______.class);
-    Assert.assertEquals(theAnswer, ____);
+    Assert.assertEquals(theAnswer.getClass(), Integer.class);
+    Assert.assertEquals(theAnswer, 42);
   }
   @Test
-  public void understandingDoubleNumbers() throws Exception
+  public void understandingDoubleNumbers2() throws Exception
   {
-    String text = "42";
+    String text = "89";
     Number theAnswer = Double.parseDouble(text);
-    Assert.assertEquals(theAnswer.getClass(), ______.class);
-    Assert.assertEquals(theAnswer, ____);
+    Assert.assertEquals(theAnswer.getClass(), Double.class);
+    Assert.assertEquals(theAnswer, 89.0);
   }
   /**
    * Ignore the following, It's needed to run the deep dive

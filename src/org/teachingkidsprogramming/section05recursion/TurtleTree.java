@@ -7,7 +7,6 @@ import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors.Browns;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors.Grays;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors.Greens;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors.Oranges;
 
 public class TurtleTree
 {
@@ -33,7 +32,7 @@ public class TurtleTree
   private static void adjustColor(Object length)
   {
     HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
-    colors.put(10, Oranges.OrangeRed);
+    colors.put(10, Greens.Lime);
     colors.put(20, Greens.ForestGreen);
     colors.put(30, Greens.DarkGreen);
     colors.put(40, Greens.Olive);
